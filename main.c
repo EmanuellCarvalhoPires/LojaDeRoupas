@@ -74,7 +74,7 @@ void RegistroProduto() {
 
 
 int main() {
-    RegistroCliente();
+    RegistroProduto();
 
     return 0;
 }
