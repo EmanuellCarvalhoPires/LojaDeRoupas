@@ -1,0 +1,21 @@
+Falta fazer
+
+1.Falta criar a estrutura e a lógica da Venda/Pedido, que deve incluir:  
+	- Escolha do Produto
+	- Quantidade do produto que foi vendida
+	- Seleção do Cliente que fez a compra
+	- Registrar data da compra
+	- Ao finalizar a compra deverá criar um registro de venda no arquivo txt
+	
+	
+2. Regra de Negócio (Devolução)
+	- É necessário implementar a regra de negócio que define que caso algum item do pedido seja devolvido pela segunda vez, deverá ser cobrada uma taxa fixa de R$ 20,00, referente às despesas da transportadora. Você precisará de uma forma de rastrear quantas vezes um item específico foi devolvido.
+  
+3. Relatórios ObrigatóriosA seção de relatórios, que é uma parte central do trabalho, ainda não foi iniciada. O programa deverá gerar os seguintes relatórios:
+	- Relatório diário: Deve conter os pedidos realizados no dia , os respectivos valores e o valor total das vendas diárias.  
+	- Relatório mensal: Deve conter o total vendido em cada mês e o valor total consolidado das vendas mensais.
+	- Relatório anual: O programa deverá calcular o total das vendas realizadas ao longo do ano. Além disso, deve apresentar os meses em ordem decrescente de faturamento, iniciando pelo mês com maior valor vendido até o menor.  
+
+4. Requisitos TécnicosO edital detalha estruturas obrigatórias de código e de entrega:
+	- É obrigatório utilizar struct, array, algoritmo de ordenação, funções. O seu código já possui structs e funções, mas você precisará incorporar o uso de arrays (possivelmente para armazenar os 12 meses do ano ou as 50 vendas diárias) e, fundamentalmente, um algoritmo de ordenação, que será essencial para ordenar os meses no relatório anual.
+	- O código deve estar todo comentado. Embora você tenha colocado comentários básicos no topo das funções, garanta que a lógica das áreas mais complexas (como os cálculos, o rastreamento de devoluções e o algoritmo de ordenação) esteja profundamente documentada para evitar perda de pontos.  
