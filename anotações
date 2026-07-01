@@ -1,11 +1,17 @@
 Falta fazer
 
+É pra registrar o quanto de cada produto foi vendido no dia
+
 1.Falta criar a estrutura e a lógica da Venda/Pedido, que deve incluir:  
-	- Escolha do Produto
-	- Quantidade do produto que foi vendida
-	- Seleção do Cliente que fez a compra
 	- Registrar data da compra
+	- Seleção do Cliente que fez a compra
+		- Escolha do Produto
+		- Quantidade do produto que foi vendida
+	
+	
+	- Struct pra registrar todas as compras feitas 
 	- Ao finalizar a compra deverá criar um registro de venda no arquivo txt
+	
 	
 	
 2. Regra de Negócio (Devolução)
@@ -18,4 +24,4 @@ Falta fazer
 
 4. Requisitos TécnicosO edital detalha estruturas obrigatórias de código e de entrega:
 	- É obrigatório utilizar struct, array, algoritmo de ordenação, funções. O seu código já possui structs e funções, mas você precisará incorporar o uso de arrays (possivelmente para armazenar os 12 meses do ano ou as 50 vendas diárias) e, fundamentalmente, um algoritmo de ordenação, que será essencial para ordenar os meses no relatório anual.
-	- Comentar Código
+	- O código deve estar todo comentado. Embora você tenha colocado comentários básicos no topo das funções, garanta que a lógica das áreas mais complexas (como os cálculos, o rastreamento de devoluções e o algoritmo de ordenação) esteja profundamente documentada para evitar perda de pontos.  
