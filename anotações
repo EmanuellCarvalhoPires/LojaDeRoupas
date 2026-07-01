@@ -18,4 +18,4 @@ Falta fazer
 
 4. Requisitos TécnicosO edital detalha estruturas obrigatórias de código e de entrega:
 	- É obrigatório utilizar struct, array, algoritmo de ordenação, funções. O seu código já possui structs e funções, mas você precisará incorporar o uso de arrays (possivelmente para armazenar os 12 meses do ano ou as 50 vendas diárias) e, fundamentalmente, um algoritmo de ordenação, que será essencial para ordenar os meses no relatório anual.
-	- O código deve estar todo comentado. Embora você tenha colocado comentários básicos no topo das funções, garanta que a lógica das áreas mais complexas (como os cálculos, o rastreamento de devoluções e o algoritmo de ordenação) esteja profundamente documentada para evitar perda de pontos.  
+	- Comentar Código
