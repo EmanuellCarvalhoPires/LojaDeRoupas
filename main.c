@@ -74,6 +74,36 @@ void RegistroProduto() {
 
 
 int main() {
+
+    int aux = 10;
+    while (aux != 0) {
+        printf("\n========================================\n"
+           "        MENU DO SISTEMA DE VENDAS       \n"
+           "========================================\n"
+           "1. Registrar Produto\n"
+           "2. Registrar Cliente\n"
+           "3. Registrar Nova Venda (Pedido)\n"
+           "4. Registrar Devolucao de Item\n"
+           "5. Gerar Relatorio Diario\n"
+           "6. Gerar Relatorio Mensal\n"
+           "7. Gerar Relatorio Anual\n"
+           "0. Sair do Programa\n"
+           "========================================\n"
+           "Escolha uma opcao: ");
+        aux = scanf("%i", &aux);
+        switch (aux) {
+            case 1:
+                RegistroProduto();
+                break;
+            case 2:
+                RegistroCliente();
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+        }
+    }
     RegistroProduto();
     return 0;
 }
